@@ -4,58 +4,79 @@
 .header {
   font-size: 50px;
   text-align: center;
-}
+  }
+
   .header-image {
     margin-left: 600px;
     height: 500px;
-  }
+    }
+
   .page {
     font-size: 40px;
-  }
+    }
+
   .box-container {
     display: flex;
+    flex-wrap: wrap;
     height: 500px;
     justify-content: flex-start;
+    align-items: baseline;
     text-align: center;
-  }
+    margin: 1em;
+    }
+
   .box {
-    background-color: dodgerblue;
     width: 25%;
     height: 100%;
     font-size: 20px;
     border-color: black;
     border-width: 5px;
     border-style: solid;
-    margin: 5px;
-  }
+    margin: 10px;
+    }
+
   .image {
     width: 250px;
     height: 250px;
-  }
+    }
+
   .wide-image {
     width: 400px;
     height: 250px;
+    }
+
+  .double-image {
+    width: 200px;
+    height: 250px;
   }
+
   .plus {
     background: chartreuse;
-  }
+    }
+
   .neg {
     background: crimson;
-  }
+    }
+
   .specialgrid {
     text-align: center;
     font-size: 20px;
     justify-content: center;
-     background: dodgerblue;
-     display: grid;
-     grid-template-columns: 120px 120px 120px;
+    display: grid;
+    grid-template-columns: 120px 120px 120px;
     }
+
 </style>
+
+<header>
 
 <h1 class="header">Gordeau</h1>
 <img class="header-image" src="https://wiki.gbl.gg/images/b/b5/Profile-gordeau.png">
 
+</header>
 
+<main>
+<!-- normals -->
 <h1 class="page">normals</h1>
 <div class="box-container">
   <div class="box">
@@ -86,6 +107,7 @@
   </div>
 </div>
 
+<!-- command normals -->
 <h2 class="page">command normals</h2>
 <div class="box-container">
   <div class="box">
@@ -218,7 +240,8 @@
   </div>
 </div>
 
-<h6 class="page">specials</h6>
+<!-- specials -->
+<h1 class="page">specials</h1>
 <div class="box-container">
   <div class="box">
     <div>236X <br> mortal slide</div>
@@ -236,7 +259,6 @@
       <div class="plus"> on block: -5</div>
       <div class="plus"> on block: +5</div>
     </div>
-  
   </div>
 
   <div class="box">
@@ -257,7 +279,6 @@
     <div class="plus">on block: +1</div>
   </div>  
 </div>
-<hr>
 
 <div class="box-container">
   <div class="box">
@@ -295,7 +316,6 @@
     </div>
   </div> 
 </div>
-<hr>
 
 <div class="box-container">
   <div class="box">
@@ -328,7 +348,74 @@
     <div class="plus">on block: +1</div>
   </div>  
 </div>
-<hr>
+
+<div class="box-container">
+  <div class="box">
+    <div>22A <br> precise aim </div>
+    <hr>
+    <img class="image" src="https://wiki.gbl.gg/images/e/ed/UNI_Gordeau_22X_1.png">
+    <hr>
+    <div>startup: 21</div>
+    <div class="plus">on block: +7</div>
+  </div>
+
+  <div class="box">
+    <div>22B <br> precise aim</div>
+    <hr>
+    <div> 
+      <img class="double-image" src="https://wiki.gbl.gg/images/e/ed/UNI_Gordeau_22X_1.png">
+      <img class="double-image" src="https://wiki.gbl.gg/images/1/1f/UNI_Gordeau_22X_2.png"> 
+    </div>
+    <hr>
+    <div>startup: 14</div>
+    <div class="neg">on block: -9</div>
+    <hr>
+    <div>Notes:</div>
+    <div>gordeau jumps into the air for second part of the attack</div>
+  </div>
+
+  <div class="box">
+    <div>22C <br> precise aim(ex)</div>
+    <hr>
+    <div> 
+      <img class="double-image" src="https://wiki.gbl.gg/images/e/ed/UNI_Gordeau_22X_1.png">
+      <img class="double-image" src="https://wiki.gbl.gg/images/1/1f/UNI_Gordeau_22X_2.png"> 
+    </div>
+    <hr>
+    <div>startup: 1</div>
+    <div class="neg">on block: -23</div>
+    <hr>
+    <div>Notes:</div>
+    <div>completely invulnerable frames 1-28</div>
+  </div>  
+</div>
+
+<div class="box-container">
+  <div class="box">
+    <div>j.236X <br> mortal glide</div>
+    <hr>
+    <img class="wide-image" src="https://wiki.gbl.gg/images/d/d4/UNI_Gordeau_j.236X.png">
+    <hr>
+    <div class="specialgrid">
+      <div>A</div>
+      <div>B</div>
+      <div>EX</div>
+      <div>startup: 7</div>
+      <div>startup: 7</div>
+      <div>Startup: 1</div>
+      <div> recovery: 9</div>
+      <div> recovery: 9</div>
+      <div> recovery: 9</div>
+    </div>
+  </div>
+
+</main>
+
+
+<footer>
+
+
+</footer>
 
 
 
